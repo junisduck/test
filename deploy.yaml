@@ -1,4 +1,3 @@
-
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -28,7 +27,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: jun-nginx-ingress
+ name: jun-nginx-ingress
   namespace: nginx-app
 spec:
   ports:
