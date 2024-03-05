@@ -11,6 +11,7 @@ spec:
   tls:
   - hosts:
     - devmonitor.dreamline.co.kr
+    secretName: newdev
   rules:
   - host: devmonitor.dreamline.co.kr
     http:
